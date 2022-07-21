@@ -19,6 +19,13 @@
   </head>
 
   <body>
+		<!-- backdrop -->
+	<div class="overlay is-hidden" data-modal>
+		<div class="modal">
+			<div class="modal-box-button"><button class="madal-close-button" data-modal-close type="button"><svg class="modal-close-icon" width="18" height="18"><use href="./images/sprite.svg#icon-close-black"></use></svg></button></div>
+			
+		</div>
+	</div>
     <!-- Шапка страницы -->
     <header class="header">
       <div class="header-page container">
@@ -57,7 +64,7 @@
 			<div class="section-bg">
 					<div class="section-one-container">
 					<h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-        			<button class="main-button" type="button">Заказать услугу</button>
+        			<button class="main-button" data-modal-open type="button">Заказать услугу</button>
 					</div>
 			</div>
       </section>
@@ -285,32 +292,32 @@
 				<ul class="section-company-list">
 					<li class="section-company-item">
 						<a href="" class="section-company-link">
-							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-company1"></use></svg>
+							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-Group6"></use></svg>
 						</a>
 					</li>
 						<li class="section-company-item">
 						<a href="" class="section-company-link">
-							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-company2"></use></svg>
+							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-Group2"></use></svg>
 						</a>
 					</li>
 						<li class="section-company-item">
 						<a href="" class="section-company-link">
-							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-company3"></use></svg>
+							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-Group4"></use></svg>
 						</a>
 					</li>
 						<li class="section-company-item">
 						<a href="" class="section-company-link">
-							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-company4"></use></svg>
+							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-Group3"></use></svg>
 						</a>
 					</li>
 						<li class="section-company-item">
 						<a href="" class="section-company-link">
-							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-company5"></use></svg>
+							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-Group5"></use></svg>
 						</a>
 					</li>
 						<li class="section-company-item">
 						<a href="" class="section-company-link">
-							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-company6"></use></svg>
+							<svg class="company-link-icon" width="170" height="92"><use href="./images/sprite.svg#icon-Group1"></use></svg>
 						</a>
 					</li>
 				</ul>
@@ -369,5 +376,6 @@
     
       </div>
     </footer>
+	 <script src="./js/modal.js"></script>
   </body>
 </html>
